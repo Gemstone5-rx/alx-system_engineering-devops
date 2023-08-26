@@ -25,6 +25,6 @@
 ---
 - **Single Point of Failure (SPOF):** Since all components are hosted on a single server, if the server fails, the entire website goes down. To mitigate this, redundancy measures like backup servers and load balancers should be considered.
 
--**Downtime during Maintenance:** When updates or maintenance are needed, the web server might need to be restarted, resulting in downtime for users. Load balancers and multiple servers in a cluster can help achieve zero-downtime deployments.
+- **Downtime during Maintenance:** When updates or maintenance are needed, the web server might need to be restarted, resulting in downtime for users. Load balancers and multiple servers in a cluster can help achieve zero-downtime deployments.
 
--**Limited Scalability:** This infrastructure might struggle to handle high traffic loads because all services are hosted on a single server. Scaling would require adding more servers, load balancing, and optimizing the architecture.
+- **Limited Scalability:** This infrastructure might struggle to handle high traffic loads because all services are hosted on a single server. Scaling would require adding more servers, load balancing, and optimizing the architecture.
